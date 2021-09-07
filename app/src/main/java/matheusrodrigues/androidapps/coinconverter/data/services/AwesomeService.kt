@@ -1,10 +1,12 @@
 package matheusrodrigues.androidapps.coinconverter.data.services
 
+import matheusrodrigues.androidapps.coinconverter.data.model.ExchangeResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 
 interface AwesomeService {
 
-    @GET("/jason/last/{coins}")
-    suspend fun exchangeValue(@Path("coins") coins: String)
+    @GET("/json/last/{coins}")
+    suspend fun exchangeValue(@Path("coins") coins: String): ExchangeResponse
+
 }
