@@ -51,8 +51,8 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
 
     //koin
-    implementation "io.insert-koin:koin-android:3.1.2"
-    implementation "io.insert-koin:koin-android-ext:3.1.2"
+    implementation "io.insert-koin:koin-android:3.0.1"
+    implementation "io.insert-koin:koin-android-ext:3.0.1"
 
     //coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
